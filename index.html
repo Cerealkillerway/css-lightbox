@@ -1,0 +1,43 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h1>CSS only Lightbox</h1>
+    <p id="prova">Click the thumbs to display the lightbox</p>
+
+    <a href="#img1">
+        <img class="thumb" src="images/thumbs/velo1_risultato.jpg">
+    </a>
+    <!-- lightbox container hidden with CSS -->
+    <div class="lightbox" id="img1">
+        <a href="#img3" class="light-btn btn-prev">prev</a>
+            <a href="#_" class="btn-close">X</a>
+            <img src="images/velo1.jpg">
+        <a href="#img2" class="light-btn btn-next">next</a>
+    </div>
+
+    <a href="#img2">
+      <img class="thumb" src="images/thumbs/velo2_risultato.jpg">
+    </a>
+    <!-- lightbox container hidden with CSS -->
+    <div class="lightbox" id="img2">
+        <a href="#img1" class="light-btn btn-prev">prev</a>
+            <a href="#_" class="btn-close">X</a>
+            <img src="images/velo2.jpg">
+        <a href="#img3" class="light-btn btn-next">next</a>
+    </div>
+
+    <a href="#img3">
+      <img class="thumb" src="images/thumbs/velo3_risultato.jpg">
+    </a>
+    <!-- lightbox container hidden with CSS -->
+    <div class="lightbox" id="img3">
+        <a href="#img2" class="light-btn btn-prev">prev</a>
+            <a href="#_" class="btn-close">X</a>
+            <img src="images/velo3.jpg">
+        <a href="#img1" class="light-btn btn-next">next</a>
+    </div>
+
+    <p class="footer">Velociraptor bytes!</p>
+</body>
