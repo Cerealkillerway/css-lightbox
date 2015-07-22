@@ -2,4 +2,4 @@
 ####made only with CSS
 
 
-demo: http://jsbin.com/lajurixowa/1/edit?output
+demo: http://jsbin.com/luripe/edit?output
